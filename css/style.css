@@ -1,0 +1,53 @@
+body{
+  background-color: lightgray; /*q10*/
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.piano{
+  color: white; /*q9*/
+  margin-top: 10vw;
+   border: 1px solid black; 
+  display: flex;
+  min-width: 35vw;
+  max-width: 35vw;
+  height: auto;
+  
+}
+
+.key{/*q1*/
+  flex: 1;
+  min-height: 40vh;
+  border: 1px solid black;
+}
+#cKey{   /*q2*/
+  background-color: rgb(90, 5, 90);
+  box-shadow: 0px 5px blue;
+}
+#dKey{   /*q3*/
+  background-color: blue;
+  box-shadow: 0px 5px skyblue;
+  
+}
+#eKey{  /*q4*/
+  background-color: skyblue;
+  box-shadow: 0px 5px green;
+}
+#fKey{  /*q5*/
+  background-color: green;
+  box-shadow: 0px 5px yellow;
+}
+#gKey{  /*q6*/
+  background-color: yellow;
+  box-shadow: 0px 5px orange;
+}
+#aKey{   /*q7*/
+  background-color: orange;
+  box-shadow: 0px 5px red;
+}
+#bKey{ /*q8*/
+  background-color: red;
+  box-shadow: 0px 5px rgb(109, 7, 7);
+}
